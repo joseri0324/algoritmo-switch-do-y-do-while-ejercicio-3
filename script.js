@@ -2,12 +2,14 @@
 let x = 0
 let valor
 
+let num = 0000
+
 do {
     valor = parseInt(prompt("Ingrese un valor (0000 para finalizar):"));
-    if (valor !== 0000) {
+    if (valor !== num) {
         x += valor;
     }
-} while (valor !== 0000);
+} while (valor !== num);
 
 document.write("Valor es."+" "+ x +" ");
 
